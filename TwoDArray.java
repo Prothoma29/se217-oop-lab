@@ -1,0 +1,17 @@
+public class TwoDArray {
+
+    public static void main(String[] args) {
+        int[][] numbers = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+        for (int row = 0; row < 2; row++) {
+            for (int column = 0; column < 3; column++) {
+                System.out.print(numbers[row][column] + " ");
+
+            }
+            System.out.println();
+
+        }
+    }
+}
